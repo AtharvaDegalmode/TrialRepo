@@ -1,0 +1,25 @@
+#Program to calculate factorisl of n using recursion
+def fact(n):
+    if n==0:
+        return 1
+    else:
+        return n*fact(n-1)
+print(fact(5)) 
+
+#To calculate sum of numbers upto n using recursion
+def summation(x):
+        if x==0:
+            return 0
+        else:
+             return x + summation(x - 1)
+print(summation(5))
+
+#Program to print elements of a list using recursion
+def print_list(list,idx):
+     if idx==len(list):
+          return
+     print(list[idx],end=" ")
+     print_list(list,idx+1)
+
+print_list([1,2,3,4,5],0)     
+

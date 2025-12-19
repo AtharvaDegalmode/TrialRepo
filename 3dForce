@@ -1,0 +1,12 @@
+from sympy import symbols, Eq, solve
+
+x,y,z = symbols('x y z')
+
+eq1 = Eq(x + y+ z,3)
+eq2 = Eq(x - y + z, 14)
+eq3 = Eq(3*x + 4*y - 2*z, 2)
+
+solution = solve((eq1, eq2, eq3),(x,y,z))
+print("The value of tensions are",solution)
+
+

@@ -1,0 +1,13 @@
+[
+    {
+        "title": "RuleQuiz1",
+        "date": "2025-12-04 00:13",
+        "records": [
+            {
+                "question": "What is the  value of time constant? \"done\"",
+                "reason": "Not read enough theory",
+                "tag": "Theoretcal,Easy"
+            }
+        ]
+    }
+]
