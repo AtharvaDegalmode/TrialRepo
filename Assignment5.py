@@ -6,3 +6,4 @@ print(even_squares)
 list1=[1,"Ak47","apple","ball",3,9.5,False]
 os_list=[i for i in list1 if type(i)==str]
 print(os_list)
+print("Just For Practice")
