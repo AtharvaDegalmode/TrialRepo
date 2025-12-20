@@ -11,4 +11,4 @@ def rev_string(x):
 
 #calling out function to calculate average of numbers in list:set
 avg_list(set)
-rev_string("Poha")
+rev_string("Po")
