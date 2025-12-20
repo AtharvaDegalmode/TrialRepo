@@ -1,13 +1,3 @@
-#Method 1
-x="HelloPython"
-vowels=["a","e","i","o","u","A","E","I","O","U"]
-list=set(x)
-num=0
-for i in list:
-    for j in vowels:
-        if i==j:
-             num=num+1
-print("Number of vowels in given string is:",num)
 
 #Method 2
 x="HelloPython"
@@ -26,5 +16,7 @@ n=input("Enter any string:" )
 r=n[::-1]
 if n==r:
     print("The given string is a Palindrome")
+else:
+    print("Not a Palindrome")    
 
 

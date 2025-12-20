@@ -1,20 +1,23 @@
-#Program to calculate sum of numbers upto an integer n using while and for loop:
-while True:
-  n=int((input("Enter an Number: ")))
+#Program to calculate sum of numbers upto an integer n using while and for loop 
+# stop if a sentiel value is entered
 
-  sum=0
-  i=0
-  while i<=n:
-   sum+=i
-   i+=1
-  print("Sum using while loop:",sum)    
-
-
-  m=int(input("enter an number: "))
-  sum1=0
-  for x in range(m+1):
+m=int(input("enter an number: "))
+sum1=0
+for x in range(m+1):
    sum1=sum1+x 
-  print("Sum using for loop:",sum1)         
+print("Sum using for loop:",sum1)         
+total = 0
+
+total = 0
+
+number = int(input("Enter a number (0 to stop): "))
+
+while number != 0:
+    total += number
+    number = int(input("Enter a number (0 to stop): "))
+
+print("The sum is:", total)
+
 
 
  
